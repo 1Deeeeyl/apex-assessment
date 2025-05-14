@@ -3,7 +3,6 @@ import Container from '@/components/container/Container';
 export default function Hero() {
   return (
     <div className="relative overflow-hidden">
-      {/* Static orange blob in background */}
       <div className="absolute top-20 -right-32 w-96 h-96 bg-orange-400/30 rounded-full blur-3xl opacity-70" />
 
       <Container>

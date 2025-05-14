@@ -12,13 +12,11 @@ export default function AboutUs() {
   const sponsors = [sponsor1, sponsor2, sponsor3, sponsor4, sponsor5];
   return (
     <div className="relative overflow-hidden">
-      {/* Background gradient elements */}
       <div className="absolute top-40 -left-40 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-60 right-20 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl" />
       <div className="absolute top-60 right-40 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl" />
 
       <Container>
-        {/* About Us */}
         <section id="aboutUs" className="px-4 xl:px-0">
           <section className="py-12 md:py-20  relative z-10">
             <div className="text-center mb-12">
@@ -119,7 +117,6 @@ export default function AboutUs() {
             </div>
           </section>
 
-          {/* Global Reach - Clients Section */}
           <section className="py-16 md:py-28 px-4 xl:px-0 relative z-10 border-t border-zinc-800">
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 justify-between">
               <div className="w-full md:w-1/2 mb-12 md:mb-0">

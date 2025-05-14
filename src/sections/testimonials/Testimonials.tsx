@@ -59,7 +59,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        'relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border p-4 rounded',
+        'relative h-full w-64 cursor-pointer overflow-hidden border p-4 rounded',
         // dark styles
         'border-gray-50/[.1]bg-gray-50/[.10] hover:bg-gray-50/[.15]'
       )}
@@ -93,24 +93,20 @@ export default function Testimonials() {
           </p>
         </div>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-          {/* Left Gradient */}
           <div className="absolute top-0 left-0 h-full w-24 bg-gradient-to-r from-zinc-900 to-transparent z-10"></div>
 
-          {/* First Row Marquee */}
           <Marquee pauseOnHover className="marquee-animate">
             {firstRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}
           </Marquee>
 
-          {/* Second Row Marquee */}
           <Marquee reverse pauseOnHover className="marquee-animate">
             {secondRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}
           </Marquee>
 
-          {/* Right Gradient */}
           <div className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-zinc-900 to-transparent z-10"></div>
         </div>
       </section>

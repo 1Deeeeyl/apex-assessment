@@ -5,7 +5,6 @@ import { Meteors } from '@/components/magicui/meteors/Meteors';
 export default function ContactUs() {
   return (
     <div className="relative overflow-hidden">
-      {/* Background gradient elements */}
       <div className="absolute top-40 -left-40 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-20 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl" />
 
@@ -31,7 +30,6 @@ export default function ContactUs() {
             <ShineBorder shineColor={['#FF6B00', '#FFA64D', '#FFBE7B']} />
 
             <div className="flex flex-col md:flex-row gap-10">
-              {/* Contact Form */}
               <div className="space-y-6 w-full">
                 <h3 className="text-2xl font-semibold text-white mb-4">
                   Send Us a Message
@@ -88,7 +86,6 @@ export default function ContactUs() {
                 </div>
               </div>
 
-              {/* Contact Information */}
               <div className="space-y-8 w-fit">
                 <h3 className="text-2xl font-semibold text-white mb-4">
                   Contact Information
