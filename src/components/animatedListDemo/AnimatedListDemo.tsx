@@ -8,7 +8,6 @@ interface Item {
   description: string;
   icon: string;
   color: string;
-  time: string;
 }
 
 let updates = [
