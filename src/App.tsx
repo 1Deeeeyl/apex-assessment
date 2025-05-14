@@ -4,6 +4,7 @@ import Hero from './sections/hero/Hero';
 import Footer from './sections/footer/Footer';
 import ContactUs from './sections/contactUs/ContactUs';
 import Nav from './sections/nav/Nav';
+import Testimonials from '@/sections/testimonials/Testimonials'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
 
       <Services />
+      <Testimonials/>
       <ContactUs />
       <Footer />
     </>

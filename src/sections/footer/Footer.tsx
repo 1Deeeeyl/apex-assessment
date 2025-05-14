@@ -2,6 +2,7 @@ import Container from '@/components/container/Container';
 import { Instagram, Facebook, Twitter, Youtube, Linkedin } from 'lucide-react';
 import logo from '../../assets/logo/MainLogo.png';
 
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -9,6 +10,7 @@ export default function Footer() {
     { href: '#home', label: 'Home' },
     { href: '#aboutUs', label: 'About Us' },
     { href: '#services', label: 'Services' },
+    { href: '#testimonials', label: 'Testimonials' },
     { href: '#contactUs', label: 'Contact Us' },
   ];
 
@@ -36,13 +38,9 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-zinc-900 text-white py-16 px-4 xl:px-0">
+    <footer className="bg-zinc-900 text-white py-16 px-4 xl:px-0 relative">
       <Container>
-        <img
-          src={logo}
-          alt="Company Logo"
-          className="w-30 h-auto mb-10 "
-        />
+        <img src={logo} alt="Company Logo" className="w-30 h-auto mb-10 " />
 
         <div className="flex flex-col md:flex-row justify-between mb-12">
           <div className="mb-8 md:mb-0">

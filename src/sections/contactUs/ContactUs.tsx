@@ -1,5 +1,6 @@
 import Container from '@/components/container/Container';
 import { ShineBorder } from '@/components/magicui/border/ShineBorder';
+import { Meteors } from '@/components/magicui/meteors/Meteors';
 
 export default function ContactUs() {
   return (
@@ -11,6 +12,7 @@ export default function ContactUs() {
       <Container>
         <section id="contactUs" className="py-20 relative z-10 px-4 xl:px-0">
           <div className="text-center mb-12">
+            <Meteors number={30} />
             <span className="inline-block px-4 py-1.5 mb-4 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-sm font-medium">
               Get In Touch
             </span>
@@ -79,7 +81,6 @@ export default function ContactUs() {
                       rows={5}
                     />
                   </div>
-                 
 
                   <button className="w-full bg-gradient-to-r from-orange-600 to-orange-500 hover:from-orange-500 hover:to-orange-400 text-white font-medium py-3 px-6 rounded transition-colors duration-300 shadow-lg shadow-orange-600/20">
                     Send Message
