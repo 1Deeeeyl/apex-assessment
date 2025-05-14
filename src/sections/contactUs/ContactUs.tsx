@@ -111,7 +111,7 @@ export default function ContactUs() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium">Phone</h4>
-                      <p className="text-zinc-300">+1 (555) 123-4567</p>
+                      <p className="text-zinc-300">(+64) 027 950 1817</p>
                     </div>
                   </div>
 
@@ -135,7 +135,7 @@ export default function ContactUs() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium">Email</h4>
-                      <p className="text-zinc-300">contact@yourcompany.com</p>
+                      <p className="text-zinc-300">admin@goapexoutsourcing.com</p>
                     </div>
                   </div>
 
@@ -162,9 +162,9 @@ export default function ContactUs() {
                         Office Location
                       </h4>
                       <p className="text-zinc-300">
-                        123 Tech Avenue, Suite 100
+                        Mandaluyong Central
                         <br />
-                        San Francisco, CA 94107
+                        Post Office 1550 P00
                       </p>
                     </div>
                   </div>

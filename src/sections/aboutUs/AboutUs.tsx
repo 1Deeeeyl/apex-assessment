@@ -35,8 +35,8 @@ export default function AboutUs() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded-xl border border-zinc-800 shadow-lg">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-500/20 mb-4">
+              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded border border-zinc-800 shadow-lg">
+                <div className="w-12 h-12 flex items-center justify-center rounded bg-orange-500/20 mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -61,8 +61,8 @@ export default function AboutUs() {
                 </p>
               </div>
 
-              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded-xl border border-zinc-800 shadow-lg">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-500/20 mb-4">
+              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded border border-zinc-800 shadow-lg">
+                <div className="w-12 h-12 flex items-center justify-center rounded bg-orange-500/20 mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -88,8 +88,8 @@ export default function AboutUs() {
                 </p>
               </div>
 
-              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded-xl border border-zinc-800 shadow-lg">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-500/20 mb-4">
+              <div className="p-6 bg-gradient-to-br from-zinc-800/50 to-zinc-900/50 rounded border border-zinc-800 shadow-lg">
+                <div className="w-12 h-12 flex items-center justify-center rounded bg-orange-500/20 mb-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -134,17 +134,17 @@ export default function AboutUs() {
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
-                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded-xl border border-orange-500/10 shadow-lg shadow-orange-900/5">
+                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded border border-orange-500/10 shadow-lg shadow-orange-900/5">
                       <p className="font-bold text-3xl text-white">100+</p>
                       <p className="text-zinc-300 mt-1">Countries</p>
                     </div>
-                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded-xl border border-orange-500/10 shadow-lg shadow-orange-900/5">
-                      <p className="font-bold text-3xl text-white">1000+</p>
-                      <p className="text-zinc-300 mt-1">Projects Deployed</p>
-                    </div>
-                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded-xl border border-orange-500/10 shadow-lg shadow-orange-900/5">
+                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded border border-orange-500/10 shadow-lg shadow-orange-900/5">
                       <p className="font-bold text-3xl text-white">500+</p>
                       <p className="text-zinc-300 mt-1">Major Cities</p>
+                    </div>
+                    <div className="px-6 py-5 bg-gradient-to-br from-orange-500/20 to-orange-500/5 backdrop-blur-sm rounded border border-orange-500/10 shadow-lg shadow-orange-900/5">
+                      <p className="font-bold text-3xl text-white">1000+</p>
+                      <p className="text-zinc-300 mt-1">Projects Deployed</p>
                     </div>
                   </div>
                 </div>
@@ -167,7 +167,8 @@ export default function AboutUs() {
                 Our Partners
               </span>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-                Companies We Have<br/>
+                Companies We Have
+                <br />
                 <span className="text-orange-400">Worked With</span>
               </h2>
             </div>
